@@ -1,16 +1,37 @@
-# weatherapp
+# Flutter Weather App 🌤️
 
-A new Flutter project.
+A beautiful and responsive real-time weather application built with Flutter and Dart. It uses the OpenWeatherMap API to fetch live weather data for any city.
 
-## Getting Started
+## ✨ Features
+* **Real-time Weather Data:** Search for any city to get current weather conditions.
+* **Detailed Metrics:** Displays Temperature, Humidity, Pressure, and "Feels Like" temperature.
+* **Beautiful UI:** Clean, modern, and easy-to-read card-based user interface.
 
-This project is a starting point for a Flutter application.
+## 🚀 Getting Started
 
-A few resources to get you started if this is your first Flutter project:
+Follow these steps to run the app on your local machine.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Prerequisites
+* Flutter SDK installed on your machine.
+* An API key from [OpenWeatherMap](https://openweathermap.org/).
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Installation
+
+1. **Clone the repository:**
+   git clone [https://github.com/GorachandGhosh/weather-app-flutter.git](https://github.com/GorachandGhosh/weather-app-flutter.git)
+
+2. **Install dependencies:**
+   flutter pub get
+
+3. **Set up the API Key:**
+   * Go to the `lib/` folder.
+   * Rename `api_key_example.dart` to `api_key.dart`.
+   * Open `api_key.dart` and paste your OpenWeatherMap API key:
+
+     const String openWeatherApiKey = "YOUR_ACTUAL_API_KEY";
+    
+4. **Run the app:**
+   flutter run
+
+## 👨‍💻 Author
+**Gorachand**
